@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D7EEE6A0-40C3-495A-84BA-DCFF936E8195}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{63625813-9CB9-4607-B3A8-C2257E8DA96D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardGame", "src\CardGame\CardGame.csproj", "{CF078B89-D6A0-470A-8484-071A49D43529}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReversingString", "src\ReversingString\ReversingString.csproj", "{E06A068C-A811-4A40-B525-64778A867B01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B4022A7A-A394-4CCC-9609-61EC204031B0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameTests", "tests\CardGameTests\CardGameTests.csproj", "{A37BF4CA-6CA2-41FD-850F-1FD975C834EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversingStringTests", "tests\ReversingStringTests\ReversingStringTests.csproj", "{5A34F2DF-9980-433A-A063-5560EE4F700E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF078B89-D6A0-470A-8484-071A49D43529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF078B89-D6A0-470A-8484-071A49D43529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF078B89-D6A0-470A-8484-071A49D43529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF078B89-D6A0-470A-8484-071A49D43529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06A068C-A811-4A40-B525-64778A867B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06A068C-A811-4A40-B525-64778A867B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06A068C-A811-4A40-B525-64778A867B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06A068C-A811-4A40-B525-64778A867B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37BF4CA-6CA2-41FD-850F-1FD975C834EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37BF4CA-6CA2-41FD-850F-1FD975C834EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37BF4CA-6CA2-41FD-850F-1FD975C834EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37BF4CA-6CA2-41FD-850F-1FD975C834EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A34F2DF-9980-433A-A063-5560EE4F700E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A34F2DF-9980-433A-A063-5560EE4F700E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A34F2DF-9980-433A-A063-5560EE4F700E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A34F2DF-9980-433A-A063-5560EE4F700E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF078B89-D6A0-470A-8484-071A49D43529} = {D7EEE6A0-40C3-495A-84BA-DCFF936E8195}
+		{E06A068C-A811-4A40-B525-64778A867B01} = {D7EEE6A0-40C3-495A-84BA-DCFF936E8195}
+		{A37BF4CA-6CA2-41FD-850F-1FD975C834EF} = {63625813-9CB9-4607-B3A8-C2257E8DA96D}
+		{5A34F2DF-9980-433A-A063-5560EE4F700E} = {63625813-9CB9-4607-B3A8-C2257E8DA96D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2928D1B-E0FD-47C3-9C5C-DC5D7913D56F}
+	EndGlobalSection
+EndGlobal
